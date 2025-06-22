@@ -1,48 +1,45 @@
 name: Net Bug Report
-title: ""
+title: "[Net Bug] <Insert short issue description here>"
 description: Something isn't working as expected on STAGANet.
 labels:
   - bug server
-assignees: misleadingname
+assignees:
+  - misleadingname
 body:
   - type: markdown
     attributes:
-     value: "### Please search for existing issues to check for duplicate issues!"
+      value: "### Please search for existing issues before posting a new one!"
   - type: textarea
     id: bug-description
     attributes:
       label: Bug Description
       description: Provide a short, clear summary of the backend/server bug.
-      required: true
+      placeholder: e.g. "User login hangs when credentials are valid."
   - type: textarea
     id: reproduction-steps
     attributes:
       label: Reproduction Steps
-      description: Include exact steps, curl/API calls, client actions, etc. that led to this issue.
-      required: true
-      value: |-
-        1. ...
-        2. ...
-        3. ...
+      description: Include curl/API calls, client actions, or sequence to reproduce the issue.
+      placeholder: |-
+        1. Call `...`
+        2. Wait for server response
+        3. Observe ...
   - type: textarea
     id: expected-behavior
     attributes:
       label: Expected Behavior
-      description: What should have happened on the server's end?
-      required: true
+      description: Describe what should have happened instead.
+      placeholder: The server should return...
   - type: textarea
     id: observed-behavior
     attributes:
       label: Observed Behavior / Logs
       description: What actually happened, and what logs/errors did you observe?
-      required: true
+      placeholder: |-
+        - Server returned 500
+        - Stack trace from ...
   - type: textarea
     id: related-data
     attributes:
       label: Related Media / Data
       description: Attach logs, traces, API responses, payloads, etc. that help clarify the bug.
-  - type: textarea
-    id: context-info
-    attributes:
-      label: Additional Context
-      description: Anything else you think is important or useful for identifying the issue.
