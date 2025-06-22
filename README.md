@@ -13,7 +13,7 @@ This repository aims to be a public issue tracker for STAGA and the related proj
 When filing an issue, please use the corresponding issue template to do so. It helps with organization and the chances of the issue being noticed and acted upon.
 
 ## Security vulnerabilities.
-To report a security vulnerability either with STAGANet, STAGALauncher or the STAGA Game, please send an email via [this address](mailto:namesofthemisled@gmail.com). Additionally please follow [HackerOne's vulnerability disclosure guidelines](https://www.hackerone.com/terms/disclosure-guidelines). Your work will either be or not be rewarded. *(Keep in mind that akaibeu & STAGA is a one-man project.)*
+To report a security vulnerability either with STAGANet, STAGALauncher or the STAGA Game, please send an email via [this address](mailto:namesofthemisled@gmail.com). Additionally please follow [HackerOne's vulnerability disclosure guidelines](https://www.hackerone.com/terms/disclosure-guidelines). Your work will either be or not be rewarded. *(Keep in mind that akaibeu & STAGA are a one-man project.)*
 
 <div align="center">
     <img width="256px" src="/.github/akaibeu.png">
