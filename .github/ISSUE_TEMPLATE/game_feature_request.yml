@@ -1,26 +1,45 @@
-name: Feature Request
-title: "[Feature] <Insert feature title here>"
-description: Suggest something to be added, changed, or removed in the game.
+name: Net Bug Report
+title: "[Net Bug] <Insert short issue description here>"
+description: Something isn't working as expected on STAGANet.
 labels:
-  - enhancement game
+  - bug server
+assignees:
+  - misleadingname
 body:
   - type: markdown
     attributes:
-      value: "### Please search for existing feature requests before posting!"
+      value: "### Please search for existing issues before posting a new one!"
   - type: textarea
-    id: request-description
+    id: bug-description
     attributes:
-      label: Request Description
-      description: Write a short summary of the feature or change you're suggesting.
-      placeholder: I want the game to...
+      label: Bug Description
+      description: Provide a short, clear summary of the backend/server bug.
+      placeholder: e.g. "User login hangs when credentials are valid."
   - type: textarea
-    id: request-defense
+    id: reproduction-steps
     attributes:
-      label: Defend the Request
-      description: How would this affect balance, gameplay, or fairness?
-      placeholder: It would help because...
+      label: Reproduction Steps
+      description: Include curl/API calls, client actions, or sequence to reproduce the issue.
+      placeholder: |-
+        1. Call `...`
+        2. Wait for server response
+        3. Observe ...
   - type: textarea
-    id: additional-media
+    id: expected-behavior
     attributes:
-      label: Additional Media or Files
-      description: Any mockups, diagrams, or examples that support the request.
+      label: Expected Behavior
+      description: Describe what should have happened instead.
+      placeholder: The server should return...
+  - type: textarea
+    id: observed-behavior
+    attributes:
+      label: Observed Behavior / Logs
+      description: What actually happened, and what logs/errors did you observe?
+      placeholder: |-
+        - Server returned 500
+        - Stack trace from ...
+  - type: textarea
+    id: related-data
+    attributes:
+      label: Related Media / Data
+      description: Attach logs, traces, API responses, payloads, etc. that help clarify the bug.
