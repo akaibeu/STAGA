@@ -1,45 +1,47 @@
 name: Game Bug Report
-title: ""
+title: "[Bug] <Insert short issue description here>"
 description: Something isn't working as expected within the game client/server.
 labels:
   - bug game
-assignees: misleadingname
+assignees:
+  - misleadingname
 body:
   - type: markdown
     attributes:
-      value: "### Please search for existing issues to check for duplicate issues!"
+      value: "### Please search for existing issues before submitting a new one!"
   - type: textarea
-    id: textarea-1
+    id: bug-description
     attributes:
       label: Bug Description
       description: Write a short summary of the bug.
-      required: true
+      placeholder: e.g. "Inventory disappears after loading save."
   - type: textarea
-    id: textarea-2
+    id: reproduction
     attributes:
-      label: Reproduction
-      description: Write a step-by-step explanation on how to reproduce the bug.
-      required: true
-      value: |-
-        1. ...
-        2. ...
-        3. ...
+      label: Reproduction Steps
+      description: Explain how to reliably trigger the issue.
+      placeholder: |-
+        1. Launch the game
+        2. Load save slot with X
+        3. Open inventory
+        4. Observe missing items
   - type: textarea
-    id: textarea-3
+    id: expected-behavior
     attributes:
-      label: Expected behaviour
-      description: What is the intended behavior?
-      required: true
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: Inventory should display all saved items.
   - type: textarea
-    id: textarea-4
+    id: additional-media
     attributes:
-      label: Additional media/files
-      description: Any useful screenshots, videos, files, logs which are used to show
-        what's going on.
+      label: Additional Media or Files
+      description: Screenshots, videos, crash dumps, or logs that help demonstrate the issue.
   - type: textarea
-    id: textarea-5
+    id: additional-context
     attributes:
       label: Additional Context
-      description: Additional context you may think would be useful to diagnose the issue.
-      required: true
-      value: I'm running on Windows 11 my computer specs are...
+      description: Anything else we should know? System specs, OS, client version, etc.
+      placeholder: |
+        OS: Windows 11
+        Specs: Ryzen 5600G, 16GB RAM, RTX 3060
+        Game Version: v0.9.3-beta
