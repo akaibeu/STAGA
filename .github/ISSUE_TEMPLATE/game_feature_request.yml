@@ -1,0 +1,27 @@
+name: Feature Request
+title: ""
+description: Suggest something to be added/changed/removed to/from the game.
+labels:
+  - enhancement game
+body:
+  - type: markdown
+    attributes:
+      value: "### Please search for existing issues to check for duplicate issues!"
+  - type: textarea
+    id: textarea-1
+    attributes:
+      label: Request Description
+      description: Write a summary of the request.
+      required: true
+      value: I want ...
+  - type: textarea
+    id: textarea-2
+    attributes:
+      label: Defend the request
+      description: How will it affect the game balance? Would it be fair against others?
+      required: true
+  - type: textarea
+    id: textarea-3
+    attributes:
+      label: Additional media/files
+      description: Any media/mockups that might be useful.

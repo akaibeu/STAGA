@@ -1,0 +1,2 @@
+## Security vulnerabilities.
+To report a security vulnerability either with STAGANet, STAGALauncher or the STAGA Game, please send an email via [this address](mailto:namesofthemisled@gmail.com). Additionally please follow [HackerOne's vulnerability disclosure guidelines](https://www.hackerone.com/terms/disclosure-guidelines). Your work will or not be rewarded accordingly. *(Keep in mind that akaibeu & STAGA is a one-man project.)*

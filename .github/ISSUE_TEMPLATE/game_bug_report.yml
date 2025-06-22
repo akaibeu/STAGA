@@ -1,0 +1,45 @@
+name: Game Bug Report
+title: ""
+description: Something isn't working as expected within the game client/server.
+labels:
+  - bug game
+assignees: misleadingname
+body:
+  - type: markdown
+    attributes:
+      value: "### Please search for existing issues to check for duplicate issues!"
+  - type: textarea
+    id: textarea-1
+    attributes:
+      label: Bug Description
+      description: Write a short summary of the bug.
+      required: true
+  - type: textarea
+    id: textarea-2
+    attributes:
+      label: Reproduction
+      description: Write a step-by-step explanation on how to reproduce the bug.
+      required: true
+      value: |-
+        1. ...
+        2. ...
+        3. ...
+  - type: textarea
+    id: textarea-3
+    attributes:
+      label: Expected behaviour
+      description: What is the intended behavior?
+      required: true
+  - type: textarea
+    id: textarea-4
+    attributes:
+      label: Additional media/files
+      description: Any useful screenshots, videos, files, logs which are used to show
+        what's going on.
+  - type: textarea
+    id: textarea-5
+    attributes:
+      label: Additional Context
+      description: Additional context you may think would be useful to diagnose the issue.
+      required: true
+      value: I'm running on Windows 11 my computer specs are...
