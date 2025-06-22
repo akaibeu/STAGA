@@ -1,27 +1,26 @@
 name: Feature Request
-title: ""
-description: Suggest something to be added/changed/removed to/from the game.
+title: "[Feature] <Insert feature title here>"
+description: Suggest something to be added, changed, or removed in the game.
 labels:
   - enhancement game
 body:
   - type: markdown
     attributes:
-      value: "### Please search for existing issues to check for duplicate issues!"
+      value: "### Please search for existing feature requests before posting!"
   - type: textarea
-    id: textarea-1
+    id: request-description
     attributes:
       label: Request Description
-      description: Write a summary of the request.
-      required: true
-      value: I want ...
+      description: Write a short summary of the feature or change you're suggesting.
+      placeholder: I want the game to...
   - type: textarea
-    id: textarea-2
+    id: request-defense
     attributes:
-      label: Defend the request
-      description: How will it affect the game balance? Would it be fair against others?
-      required: true
+      label: Defend the Request
+      description: How would this affect balance, gameplay, or fairness?
+      placeholder: It would help because...
   - type: textarea
-    id: textarea-3
+    id: additional-media
     attributes:
-      label: Additional media/files
-      description: Any media/mockups that might be useful.
+      label: Additional Media or Files
+      description: Any mockups, diagrams, or examples that support the request.
