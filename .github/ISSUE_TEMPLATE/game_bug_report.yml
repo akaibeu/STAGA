@@ -9,6 +9,16 @@ body:
   - type: markdown
     attributes:
       value: "### Please search for existing issues before submitting a new one!"
+  - type: dropdown
+    id: game-version
+    attributes:
+      label: Game Platform
+      description: Select which version of the game the bug occurred in.
+      options:
+        - Hollowgate (Roblox Prototype)
+        - STAGA (Standalone Game)
+    validations:
+      required: true
   - type: textarea
     id: bug-description
     attributes:
@@ -39,7 +49,7 @@ body:
   - type: textarea
     id: additional-context
     attributes:
-      label: Additional Context
+      label: Additional Context (irrelevant for Hollowgate.)
       description: Anything else we should know? System specs, OS, client version, etc.
       placeholder: |
         OS: Windows 11
