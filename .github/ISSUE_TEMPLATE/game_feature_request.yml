@@ -7,6 +7,14 @@ body:
   - type: markdown
     attributes:
       value: "### Please search for existing feature requests before posting!"
+  - type: dropdown
+    id: game-version
+    attributes:
+      label: Game Platform
+      description: Select which version of the game the proposal is for.
+      options:
+        - Hollowgate (Roblox Prototype)
+        - STAGA (Standalone Game)
   - type: textarea
     id: request-description
     attributes:
@@ -24,3 +32,4 @@ body:
     attributes:
       label: Additional Media or Files
       description: Any mockups, diagrams, or examples that support the request.
+
